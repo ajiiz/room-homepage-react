@@ -1,4 +1,9 @@
-import { Route, Switch } from 'react-router'
+import { Route, Switch, Redirect } from "react-router-dom"
+
+import Home from "./components/Home"
+import Shop from "./components/Shop"
+import About from "./components/About"
+import Contact from "./components/Contact"
 
 const App = () => {
     return (
@@ -7,7 +12,7 @@ const App = () => {
             <Route path="/shop" component={Shop} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
-            <Route path="/" component={DisplayError} />
+            <Route path="/"><Redirect to="/home" /></Route>
         </Switch>
     )
 }
