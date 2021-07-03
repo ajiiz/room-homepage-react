@@ -2,12 +2,15 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 import Logo from "../../assets/logo.svg"
+import IconHamburger from "../../assets/icon-hamburger.svg"
+import IconClose from "../../assets/icon-close.svg"
 import "../../styles/navbar.scss"
 
 const index = () => {
     return (
         <div className="navbar">
-            <img src={Logo} className="logo"></img>
+            <img src={IconHamburger} className="hamburger"/>
+            <img src={Logo} className="logo" />
             <ul className="nav-items">
                 <li className="nav-items__items">
                     <Link className="nav-items__link" to="/home">home</Link>
