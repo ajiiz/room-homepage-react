@@ -20,7 +20,7 @@
 .nav-items {
     display: flex;
     flex-direction: row;
-    font-size: 1.3em;
+    font-size: 1.1em;
 
     &__items {
         padding: 0 2em 0 2em;
@@ -45,5 +45,36 @@
         background-color: $white;
         opacity: 0;
         transition: opacity .2s ease-in-out;
+    }
+}
+
+.hamburger {
+    position: absolute;
+    left: 2em;
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: center;
+        color: $black;
+    }
+
+    .nav-items {
+        display: none;
+        font-size: 1.2em;
+        font-weight: bold;
+
+        &__items {
+            padding: 0 .8em 0 .8em;
+        }
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
     }
 }
