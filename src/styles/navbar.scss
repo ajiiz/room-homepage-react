@@ -10,6 +10,7 @@
     align-items: center;
     font-size: $fontSize;
     color: $white;
+    transition: all .5s ease-in;
 }
 
 .logo {
@@ -20,7 +21,7 @@
 .nav-items {
     display: flex;
     flex-direction: row;
-    font-size: 1.1em;
+    font-size: 1.2em;
 
     &__items {
         padding: 0 2em 0 2em;
@@ -64,6 +65,7 @@
         display: none;
         font-size: 1.2em;
         font-weight: bold;
+        margin-left: 3em;
 
         &__items {
             padding: 0 .8em 0 .8em;

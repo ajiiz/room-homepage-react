@@ -10,7 +10,7 @@ const NavbarView = ({ isBurger, handleClick }) => {
     return (
         <div className="navbar" style={{backgroundColor: !isBurger && "white"}}>
             <img src={isBurger ? IconHamburger : IconClose} className="hamburger" onClick={handleClick} />
-            <img src={Logo} className="logo" />
+            <img src={Logo} className="logo" style={{display: !isBurger && "none"}}/>
             <NavbarItems isBurger={isBurger} />
         </div>
     )
