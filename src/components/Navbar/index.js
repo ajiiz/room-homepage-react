@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 import Logo from "../../assets/logo.svg"
+import "../../styles/navbar.scss"
 
 const index = () => {
     return (
-        <div className="navbar" style={{backgroundColor:"black"}}>
-            <img src={Logo}></img>
+        <div className="navbar">
+            <img src={Logo} className="logo"></img>
             <ul className="nav-items">
                 <li className="nav-items__items">
                     <Link className="nav-items__link" to="/home">home</Link>
