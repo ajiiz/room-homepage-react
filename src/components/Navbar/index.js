@@ -6,19 +6,19 @@ import IconHamburger from "../../assets/icon-hamburger.svg"
 import IconClose from "../../assets/icon-close.svg"
 import "../../styles/navbar.scss"
 
-const index = () => {
+const Navbar = () => {
 
-    const [isBurger, setIsBurger] = useState(false)
+    const [isBurger, setIsBurger] = useState(true)
 
     const handleClick = () => {
         setIsBurger(!isBurger)
     }
 
     return (
-        <div className="navbar">
+        <div className="navbar" style={{backgroundColor: !isBurger && "white"}}>
             <img src={isBurger ? IconHamburger : IconClose} className="hamburger" onClick={handleClick} />
             <img src={Logo} className="logo" />
-            <ul className="nav-items">
+            <ul className="nav-items" style={{display: !isBurger && "flex"}}>
                 <li className="nav-items__items">
                     <Link className="nav-items__link" to="/home">home</Link>
                 </li>
@@ -36,4 +36,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Navbar

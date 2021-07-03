@@ -2,7 +2,7 @@ import React from 'react'
 
 import Navbar from "../Navbar"
 
-const index = () => {
+const Home = () => {
     return (
         <>
             <Navbar />
@@ -13,4 +13,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Home
