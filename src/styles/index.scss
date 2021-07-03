@@ -1,0 +1,30 @@
+@import url('https://fonts.google.com/specimen/Spartan');
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Spartan', sans-serif;
+    font-size: $fontSize;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover, a:visited {
+    color: inherit;
+    background-color: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}

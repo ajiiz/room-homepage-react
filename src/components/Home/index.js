@@ -1,11 +1,16 @@
 import React from 'react'
 
-const index = () => {
+import Navbar from "../Navbar"
+
+const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <>
+            <Navbar />
+            <div>
+                Home
+            </div>
+        </>
     )
 }
 
-export default index
+export default Home
