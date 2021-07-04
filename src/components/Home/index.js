@@ -2,6 +2,9 @@ import React from 'react'
 
 import Navbar from "../Navbar"
 import data from "./data"
+import ArrowLeft from "../../assets/icon-angle-left.svg"
+import ArrowRight from "../../assets/icon-angle-right.svg"
+import ArrowLong from "../../assets/icon-arrow.svg"
 import "../../styles/home.scss"
 
 const Home = () => {
@@ -14,11 +17,14 @@ const Home = () => {
                     <div className="home-info-text">
                         <h1 className="home-info-text__header">{data.galleryData[0].header}</h1>
                         <p className="home-info-text__content">{data.galleryData[0].content}</p>
-                        <p className="home-info-text__button">shop now</p>
+                        <div className="home-info-text__button">
+                            <span className="home-info-text__button-text">shop now</span>
+                            <img className="home-info-text__button-arrow" src={ArrowLong} />
+                        </div>
                     </div>
                     <div className="home-info-arrows">
-                        <div className="home-info-arrows__arrow arrow-right"></div>
-                        <div className="home-info-arrows__arrow arrow-light"></div>
+                        <img className="home-info-arrows__arrow" src={ArrowLeft} />
+                        <img className="home-info-arrows__arrow" src={ArrowRight} />
                     </div>
                 </div>
                 <div className="home-about">
