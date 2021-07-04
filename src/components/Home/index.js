@@ -14,12 +14,14 @@ const Home = () => {
             <div className="home">
                 <img className="home-gallery" src={data.galleryData[0].image}></img>
                 <div className="home-info-wrapper">
-                    <div className="home-info-text">
-                        <h1 className="home-info-text__header">{data.galleryData[0].header}</h1>
-                        <p className="home-info-text__content">{data.galleryData[0].content}</p>
-                        <div className="home-info-text__button">
-                            <span className="home-info-text__button-text">shop now</span>
-                            <img className="home-info-text__button-arrow" src={ArrowLong} />
+                    <div className="home-info-text-container">
+                        <div className="home-info-text">
+                            <h1 className="home-info-text__header">{data.galleryData[0].header}</h1>
+                            <p className="home-info-text__content">{data.galleryData[0].content}</p>
+                            <div className="home-info-text__button">
+                                <span className="home-info-text__button__text">shop now</span>
+                                <img className="home-info-text__button__arrow" src={ArrowLong} />
+                            </div>
                         </div>
                     </div>
                     <div className="home-info-arrows">
