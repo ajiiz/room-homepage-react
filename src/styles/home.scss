@@ -1,0 +1,86 @@
+@import "variables";
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-gallery {
+    width: 55%;
+    height: 60%;
+}
+
+.home-info-wrapper {
+    width: 45%;
+    height: 60%;
+}
+
+.home-info-text-container {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info-text {
+    width: 60%;
+
+    &__header {
+        font-size: 3.3em;
+        font-weight: $fontWeightL;
+    }
+
+    &__content {
+        color: $darkGray;
+        line-height: 1.5em;
+        padding: 2.5em 0 2.5em 0;
+    }
+
+    &__button {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &__text {
+            text-transform: uppercase;
+            font-size: 1.2em;
+            letter-spacing: 1em;
+        }
+    }
+
+    &__button:hover {
+        color: $darkGray;
+        filter: invert(65%) sepia(3%) saturate(8%) hue-rotate(68deg) brightness(101%) contrast(84%);
+    }
+}
+
+.home-info-arrows {
+    height: 15%;
+    display: flex;
+    align-items: center;
+
+    &__arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 15%;
+        background-color: $black;
+        cursor: pointer;
+    }
+
+    &__arrow:hover {
+        background-color: $darkerGray;
+    }
+}
+
+.home-about {
+    width: 100%;
+    height: 40%;
+}
