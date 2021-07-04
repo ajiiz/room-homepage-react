@@ -35,9 +35,11 @@ const Home = () => {
                 </div>
                 <div className="home-about">
                     <img className="home-about__photo" src={data.aboutData.imageDark}/>
-                    <div className="home-about__text">
-                        <h3 className="home-about__text__header">{data.aboutData.header}</h3>
-                        <p className="home-about__text__content">{data.aboutData.content}</p>
+                    <div className="home-about__text-wrapper">
+                        <div className="home-about__text-wrapper__text">
+                            <h3 className="home-about__text-wrapper__text__header">{data.aboutData.header}</h3>
+                            <p className="home-about__text-wrapper__text__content">{data.aboutData.content}</p>
+                        </div>
                     </div>
                     <img className="home-about__photo" src={data.aboutData.imageLight}/>
                 </div>
