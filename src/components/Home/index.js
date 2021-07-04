@@ -25,8 +25,12 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="home-info-arrows">
-                        <img className="home-info-arrows__arrow" src={ArrowLeft} />
-                        <img className="home-info-arrows__arrow" src={ArrowRight} />
+                        <div className="home-info-arrows__arrow">
+                            <img src={ArrowLeft} />
+                        </div>
+                        <div className="home-info-arrows__arrow">
+                            <img src={ArrowRight} />
+                        </div>
                     </div>
                 </div>
                 <div className="home-about">
