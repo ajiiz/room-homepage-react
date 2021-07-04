@@ -34,12 +34,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="home-about">
-                    <div className="home-about__photo photo-left"></div>
+                    <img className="home-about__photo" src={data.aboutData.imageDark}/>
                     <div className="home-about__text">
                         <h3 className="home-about__text__header">{data.aboutData.header}</h3>
                         <p className="home-about__text__content">{data.aboutData.content}</p>
                     </div>
-                    <div className="home-about__photo photo-right"></div>
+                    <img className="home-about__photo" src={data.aboutData.imageLight}/>
                 </div>
             </div>
         </>

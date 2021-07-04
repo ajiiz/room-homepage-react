@@ -1,6 +1,8 @@
 import HeroImage1 from "../../assets/desktop-image-hero-1.jpg"
 import HeroImage2 from "../../assets/desktop-image-hero-2.jpg"
 import HeroImage3 from "../../assets/desktop-image-hero-3.jpg"
+import LightImage from "../../assets/image-about-light.jpg"
+import DarkImage from "../../assets/image-about-dark.jpg"
 
 const data = {
     galleryData: [
@@ -24,7 +26,9 @@ const data = {
     aboutData:
         {
             header: "About our furniture",
-            content: "Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space."
+            content: "Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.",
+            imageDark: DarkImage,
+            imageLight: LightImage
         }
 }
 
