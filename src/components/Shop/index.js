@@ -1,11 +1,7 @@
 import React from 'react'
 
-const Shop = () => {
-    return (
-        <div>
-            Shop
-        </div>
-    )
-}
+import Info from "../Info"
+
+const Shop = () => <Info name="shop" />
 
 export default Shop

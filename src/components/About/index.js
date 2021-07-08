@@ -1,11 +1,7 @@
 import React from 'react'
 
-const About = () => {
-    return (
-        <div>
-            About
-        </div>
-    )
-}
+import Info from "../Info"
+
+const About = () => <Info name="about" />
 
 export default About

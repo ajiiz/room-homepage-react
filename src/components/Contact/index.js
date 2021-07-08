@@ -1,11 +1,7 @@
 import React from 'react'
 
-const Contact = () => {
-    return (
-        <div>
-            Contact
-        </div>
-    )
-}
+import Info from "../Info"
+
+const Contact = () => <Info name="contact" />
 
 export default Contact
