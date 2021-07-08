@@ -28,3 +28,31 @@ a, a:hover, a:visited {
     outline: none;
     text-decoration: none;
 }
+
+button, button:focus, button:hover {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    outline: inherit;
+    cursor: pointer;
+  }
+
+.btn {
+    color: $black;
+    border: $darkerGray 2px solid;
+    padding: .7em;
+    transition: background-color .2s ease-in, color .2s ease-in;
+}
+
+.btn:hover {
+    background-color: $darkerGray;
+    color: $white;
+    border: $darkerGray 2px solid;
+}
+
+.btn:focus {
+    background-color: $black;
+    color: $white;
+    border: $black 2px solid;
+}
