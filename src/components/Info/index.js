@@ -1,5 +1,7 @@
 import React from 'react'
 
+import "../../styles/info.scss"
+
 const Info = ({ name }) => {
     return (
         <div className="info">

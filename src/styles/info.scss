@@ -1,0 +1,27 @@
+@import "variables";
+
+.info {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    font-weight: $fontWeightXS;
+    text-align: center;
+    animation: textColor 1.5s infinite;
+}
+
+@keyframes textColor {
+    0% {
+        color: $black;
+    }
+    50% {
+        color: $darkGray;
+    }
+    100% {
+        color: $black;
+    }
+}
