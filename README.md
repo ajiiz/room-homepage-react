@@ -1,5 +1,4 @@
-# room-homepage
-
+# Room Homepage
 *room-homepage* simple static website with furniture showcase.
 Design imported from [frontendmentor/room-homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
 
@@ -9,13 +8,11 @@ Design imported from [frontendmentor/room-homepage](https://www.frontendmentor.i
 * [Contact](#contact)
 
 ## Status
-#### Published live version at: [room-homepage](https://room-home-ajiiz.netlify.app/home)
+Published live version at: [room-homepage](https://room-home-ajiiz.netlify.app/home)
 
 ## Technologies
-#### Project is created with:
-* ReactJS
-* React Hooks
-* SCSS
+Project is built using the following technologies:
+* <b>Frontend</b>: React.js, React Hooks, SCSS
 
 ## Contact
 #### Contact me via e-mail: piotrwrobel.ajiiz@gmail.com
